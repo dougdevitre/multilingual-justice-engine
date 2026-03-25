@@ -1,0 +1,22 @@
+[
+  {"english":"plaintiff","translated":"demandante","context":"Person who brings a case"},
+  {"english":"defendant","translated":"demandado/a","context":"Person being sued"},
+  {"english":"custody","translated":"custodia","context":"Legal right to care for a child"},
+  {"english":"motion","translated":"mocion","context":"Formal request to the court"},
+  {"english":"hearing","translated":"audiencia","context":"Court proceeding"},
+  {"english":"petition","translated":"peticion","context":"Formal written request"},
+  {"english":"judge","translated":"juez/jueza","context":"Court official who decides cases"},
+  {"english":"evidence","translated":"evidencia/prueba","context":"Material supporting a claim"},
+  {"english":"witness","translated":"testigo","context":"Person who testifies"},
+  {"english":"subpoena","translated":"citacion judicial","context":"Order to appear in court"},
+  {"english":"child support","translated":"manutencion de menores","context":"Financial support for children"},
+  {"english":"visitation","translated":"visitacion","context":"Scheduled time with a child"},
+  {"english":"restraining order","translated":"orden de restriccion","context":"Court order limiting contact"},
+  {"english":"guardian ad litem","translated":"tutor ad litem","context":"Court-appointed child advocate"},
+  {"english":"deposition","translated":"deposicion","context":"Sworn testimony outside court"},
+  {"english":"affidavit","translated":"declaracion jurada","context":"Written sworn statement"},
+  {"english":"mediation","translated":"mediacion","context":"Alternative dispute resolution"},
+  {"english":"contempt","translated":"desacato","context":"Violation of court order"},
+  {"english":"dissolution","translated":"disolucion","context":"Legal ending of marriage"},
+  {"english":"stipulation","translated":"estipulacion","context":"Agreement between parties"}
+]

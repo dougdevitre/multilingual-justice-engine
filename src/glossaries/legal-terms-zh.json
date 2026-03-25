@@ -1,0 +1,12 @@
+[
+  {"english":"plaintiff","translated":"原告","context":"Person who brings a case"},
+  {"english":"defendant","translated":"被告","context":"Person being sued"},
+  {"english":"custody","translated":"监护权","context":"Legal right to care for a child"},
+  {"english":"motion","translated":"动议","context":"Formal request to the court"},
+  {"english":"hearing","translated":"听证会","context":"Court proceeding"},
+  {"english":"judge","translated":"法官","context":"Court official"},
+  {"english":"evidence","translated":"证据","context":"Material supporting a claim"},
+  {"english":"witness","translated":"证人","context":"Person who testifies"},
+  {"english":"child support","translated":"子女抚养费","context":"Financial support for children"},
+  {"english":"restraining order","translated":"限制令","context":"Court order limiting contact"}
+]

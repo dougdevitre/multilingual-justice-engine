@@ -1,0 +1,15 @@
+const express = require('express');
+const cors = require('cors');
+require('dotenv').config();
+const app = express();
+app.use(cors()); app.use(express.json());
+const { TranslationService } = require('./services/translation-service');
+const { LanguageDetector } = require('./services/language-detector');
+const { GlossaryService } = require('./services/glossary-service');
+const ts = new TranslationService(); const ld = new LanguageDetector(); const gs = new GlossaryService();
+app.get('/health', (_, res) => res.json({ status: 'ok', service: 'multilingual-justice-engine' }));
+app.post('/api/translate', async (req, res) => { const { text, targetLang, sourceLang } = req.body; const result = await ts.translate(text, targetLang, sourceLang); res.json(result); });
+app.post('/api/detect-language', (req, res) => { const { text } = req.body; res.json(ld.detect(text)); });
+app.get('/api/glossary/:lang', (req, res) => { res.json(gs.getGlossaryByLanguage(req.params.lang)); });
+app.listen(process.env.PORT || 3000, () => console.log('🌐 Multilingual Justice Engine running'));
+module.exports = app;
